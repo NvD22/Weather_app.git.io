@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather NvD</title>
+    <!-- Link File CSS -->
+    <link rel="stylesheet" href="./asset/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="weather">
+        <input type="text" class="search" placeholder="Search">
+        <div class="content">
+            <h1 class="capital">
+                <span class="city">Ha Noi</span>
+                <span>,</span>
+                <span class="country">VN</span>
+            </h1>
+            <p class="time">8:00 AM</p>
+            <div class="temperature">
+                <span class="value"></span>
+                <span>
+                    <sup>o</sup>
+                    C
+                </span>
+            </div>
+            <div class="short-desc">Clouds</div>
+            <div class="detail-desc">
+                <div class="visibility">
+                    <i class="fa-regular fa-eye"></i>
+                    <span>10000(m)</span>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>1.61(m/s)</span>
+                </div>
+                <div class="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span>35(%)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./asset/app.js"></script>
+</body>
+</html>
